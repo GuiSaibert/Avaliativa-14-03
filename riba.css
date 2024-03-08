@@ -1,0 +1,80 @@
+body{
+    background-color:rgb(4, 15, 26);
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 1200px;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+
+}
+li{
+    display: inline-block;
+    margin-right: 60px;
+}
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(18, 177, 124);
+    transition: 0.3s all;
+}
+
+
+#infant-btn{
+    border: 2px solid rgb(18, 177, 124);
+    padding: 10px;
+    border-radius: 15px;
+
+}
+#masc-btn{
+    border: 2px solid rgb(18, 177, 124);
+    padding: 10px;
+    border-radius: 15px;
+
+}
+#fem-btn{
+    border: 2px solid rgb(18, 177, 124);
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+
+}
+h2{
+    font-size: 50px;
+    line-height: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span{
+    color: rgb(18, 177, 124);
+}
+p{
+    line-height: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 500px;
+}
+ul{
+    margin-right: 20px;
+}
+    
